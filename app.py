@@ -303,4 +303,4 @@ with gr.Blocks() as demo:
     image_input.change(fn=update_gallery, inputs=[image_input], outputs=[gallery])
     predict_button.click(fn=predict, inputs=[image_input, text_input], outputs=[output])
 
-demo.launch(debug=True)
+demo.launch(debug=True, share=True)

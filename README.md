@@ -1,5 +1,7 @@
 # Image_to_Test
 
+![image_to_test](./image_to_test.png)
+
 A tool that uses a multimodal LLM to describe testing instructions for the features of any digital product, based on screenshots.
 
 ## Usage
